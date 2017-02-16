@@ -12,4 +12,8 @@ To start with i would like to compare:
 
 Let's get started....
 
- 
+# Javascript 
+
+The javascript one was obviously the easiest to start. No learning curve (if you already know javascript and DOM). Only discovery was that i could use Arry.from (part of ES6) in Chrome (basic support from version 45). I used this to iterate through the div and inout elements in the page. I later discovered i could use instead document.querySelectorAll() which already returned an object that can be iterate with forEach. 
+
+§ 
