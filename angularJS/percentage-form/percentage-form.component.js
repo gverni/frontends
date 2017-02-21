@@ -1,7 +1,8 @@
 angular.
   module('percentageForm').
   component('percentageForm', {
-  	templateUrl: 'percentage-form/percentage-form.template.html',
+  	//templateUrl: 'percentage-form/percentage-form.template.html',
+  	template: '<li ng-repeat="inputCtrl in $ctrl.inputCntrls">{{inputCtrl.label}} <input type="text" value="{{inputCtrl.value}}"></li>',
   	controller: function percentageFormController() { 
   		this.inputCntrls = [
   			{
