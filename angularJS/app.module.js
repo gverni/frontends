@@ -1,0 +1,1 @@
+var ezPercentageApp = angular.module('ezPercentageApp', ['percentageForm']);
